@@ -1,0 +1,164 @@
+<form class="form-horizontal">
+     <div class="control-group">
+        <label class="control-label">{{ _('Enable Mosfet') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.mosfet_enabled">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Mosfet Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.mosfet_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Default Brightness') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.default_brightness">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Rotary Encoder') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.enc_enabled">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Encoder A Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.enc_a_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Encoder B Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.enc_b_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Encoder Switch Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.enc_sw_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Stop Button') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.stop_enabled">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Stop Button Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.stop_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Home Buttons') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.home_enabled">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Home X Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.home_x_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Home Y Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.home_y_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Home Z Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.home_z_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Move XY Buttons') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.xy_enabled">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Default XY Move(in mm)') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.default_xy_move">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _(' X+ Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.x_plus_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _(' X- Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.x_minus_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _(' Y+ Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.y_plus_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _(' Y- Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.y_minus_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Move Z Buttons') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.z_enabled">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Default Z Move(in mm)') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.default_z_move">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _(' Z+ Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.z_plus_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _(' Z- Pin') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.z_minus_pin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Temp 1 Sensor') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.temp_1_enabled">
+        </div>
+    </div>
+     <div class="control-group">
+        <label class="control-label">{{ _('Temp 1 Sensor NavBar name') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.temp_1_name">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Enable Temp 2 Sensor') }}</label>
+        <div class="controls">
+            <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.SimpleControlPanel.temp_2_enabled">
+        </div>
+    </div>
+     <div class="control-group">
+        <label class="control-label">{{ _('Temp 2 Sensor NavBar name') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.SimpleControlPanel.temp_2_name">
+        </div>
+    </div>
+</form>

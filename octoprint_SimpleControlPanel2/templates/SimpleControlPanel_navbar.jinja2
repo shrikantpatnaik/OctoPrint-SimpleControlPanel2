@@ -1,0 +1,13 @@
+<ul class="nav">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <span data-bind="text: tempString"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" step="10" class="slider" id="myRange" data-bind="value: currentBrightness">
+                Brightness <span data-bind="text: currentBrightness"></span>%
+            </div>
+        </ul>
+    </li>
+</ul>

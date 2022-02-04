@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_SimpleControlPanel2/templates *
+recursive-include octoprint_SimpleControlPanel2/translations *
+recursive-include octoprint_SimpleControlPanel2/static *

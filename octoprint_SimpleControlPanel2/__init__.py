@@ -142,7 +142,6 @@ class Simplecontrolpanel2Plugin(octoprint.plugin.StartupPlugin,
             self.set_brightness()
 
     def button_pressed(self, gpio, level, tick):
-        self._logger.info('button pressed')
         if tick - self.lastTick > 50000 or gpio != self.lastGpio:
             self.lastGpio = gpio
             self.lastTick = tick
@@ -238,7 +237,6 @@ class Simplecontrolpanel2Plugin(octoprint.plugin.StartupPlugin,
         self.set_pwm(self.current_brightness)
 
     def set_pwm(self, value):
-        self._logger.info("Setting Mosfet")
         if self._settings.get(["mosfet_enabled"]):
             self.pi.hardware_PWM(int(self._settings.get(["mosfet_pin"])), 800, value * 10000)
 

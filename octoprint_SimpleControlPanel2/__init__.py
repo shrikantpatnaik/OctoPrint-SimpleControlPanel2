@@ -114,9 +114,9 @@ class Simplecontrolpanel2Plugin(octoprint.plugin.StartupPlugin,
                     default_xy_move="10",
                     default_z_move="1",
                     default_brightness="50",
-                    temp_1_enabled=True,
+                    temp_1_enabled=False,
                     temp_1_name="E",
-                    temp_2_enabled=True,
+                    temp_2_enabled=False,
                     temp_2_name="FB")
 
     def get_template_configs(self):
